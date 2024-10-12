@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="rock-paper-scissor.css" />
+    <title>Rock Paper Scissor</title>
+  </head>
+
+  <body>
+    <div>
+      <div class="backdrop"></div>
+      <div class="modal">
+        <h3>Do you want to reset score?</h3>
+        <button id="yes-btn" class="optional-btn">Yes</button>
+        <button id="no-btn" class="optional-btn">No</button>
+      </div>
+      <h2>Rock Paper Scissor</h2>
+      <div class="moves">
+        <button id="rock-btn">
+          <img src="./asset/images/rock.png" class="move-icon" />
+        </button>
+        <button id="paper-btn">
+          <img src="./asset/images/paper.png" class="move-icon" />
+        </button>
+        <button id="scissors-btn">
+          <img src="./asset/images/scissors.png" class="move-icon" />
+        </button>
+      </div>
+      <div id="display-result" class="display-result"></div>
+      <div id="display-score"></div>
+      <div>
+        <button id="reset-btn" class="btn">Reset score</button>
+        <button id="autoPlay-btn" class="btn">Auto play</button>
+      </div>
+    </div>
+
+    <script src="rock-paper-scissor.js"></script>
+  </body>
+</html>
